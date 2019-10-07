@@ -15,11 +15,33 @@
 
 
 /* Transformation Styles */
+figure#figure1{
+   -webkit-filter: sepia(0.8);
+filter: sepia(0.8)
+}
+figure#figure2{
+   transform: rotate(-40deg) scale(0.8, 0.8) translate(20px, -100px);
+   box-shadow: rgb(101, 101, 101) 10px -10px 25px;
+   filter: drop-shadow(200);
+   filter: hue-rotate(100);
+   -webkit-filter: blur(7px)
 
+}
+figure#figure3{
+   transform: rotate(10deg) scale(0.9, 0.9)  translateY(-120px);
+   box-shadow: rgb(101, 101, 101) 10px -10px 25px;
+   filter: saturate(1.5) contrast(1.2);
+}
 
 
 /* Filter Styles */
+article{
+   perspective: 600px;
 
+}
+figure#figure1{
+   transform: rotateX(30deg) translateZ(50px);
+}
 
 
 
